@@ -1,3 +1,10 @@
+# Everflow Fork
+
+```
+# Building the image
+docker build --build-arg JENKINS_VERSION=2.263.4 --build-arg JENKINS_SHA=1D4A7409784236A84478B76F3F2139939C0D7A3B4B2E53B1FCEF400C14903AB6  -t gcr.io/production-1309/jenkins:latest -f .\8\alpine\hotspot\Dockerfile .
+```
+
 # Official Jenkins Docker image
 
 [![Docker Stars](https://img.shields.io/docker/stars/jenkins/jenkins.svg)](https://hub.docker.com/r/jenkins/jenkins/)
